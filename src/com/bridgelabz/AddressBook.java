@@ -26,6 +26,11 @@ public class AddressBook {
 		contact.setphoneNumber(scanner.next());
 		System.out.println("Enter email:");
 		contact.setemail(scanner.next());
+		System.out.println();
+		System.out.println(contact);
+		System.out.println();
+		System.out.println("Edit First name:");
+		contact.setFirstName(scanner.next());
 		return contact;
 	}
 }
